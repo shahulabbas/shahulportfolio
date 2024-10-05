@@ -21,9 +21,36 @@
     <link rel="stylesheet" href="css/flaticon.css">
     <link rel="stylesheet" href="css/icomoon.css">
     <link rel="stylesheet" href="css/style.css">
- <style>
-	
- </style>
+	<style>
+				.image{
+					display: none;
+				}
+				.hero{
+					display: block;
+				}
+		@media screen and (max-width:767px) {
+			
+		
+		.image{
+			display: flex;
+			background: url(images/shahul.jpeg) no-repeat 100% 100%;
+			width: 100%;
+			height: 600px;
+			margin: 30px 0 0 0;
+			justify-content: center;
+			align-items: center;
+			font-weight: 600;
+		}
+		.hero{
+			display: none;
+		}
+		.image span{
+			color: #ffbd39;
+			font-weight: 600;
+
+		}
+	}
+	</style>
   </head>
   <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300" style="">
 	  
@@ -49,13 +76,13 @@
 	    </div>
 	  </nav>
  <!-- Home -->
-	  <section id="home-section" class="hero""style="width:100%; height 400px; margin-top:-100px;">
+	   <section id="home-section" class="hero">
 		  <div class="home-slider  owl-carousel">
 	      <div class="slider-item ">
 	      	<div class="overlay"></div>
 	        <div class="container">
 	          <div class="row d-md-flex no-gutters slider-text align-items-end justify-content-end" data-scrollax-parent="true">
-	          	<div class="one-third js-fullheight order-md-last img" style="background-image:url(images/shahul2.jpeg); background-size:100% 50%;">
+	          	<div class="one-third js-fullheight order-md-last img" style="background-image:url(images/shahul2.jpeg);">
 	          		<div class="overlay"></div>
 	          	</div>
 		          <div class="one-forth d-flex  align-items-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
@@ -74,7 +101,7 @@
 	      	<div class="overlay"></div>
 	        <div class="container">
 	          <div class="row d-flex no-gutters slider-text align-items-end justify-content-end" data-scrollax-parent="true">
-	          	<div class="one-third js-fullheight order-md-last img" style="background-image:url(images/shahul.png);background-size: 100% 50%;">
+	          	<div class="one-third js-fullheight order-md-last img" style="background-image:url(images/shahul.png);background-size: cover;">
 	          		<div class="overlay"></div>
 	          	</div>
 		          <div class="one-forth d-flex align-items-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
@@ -89,9 +116,17 @@
 	        </div>
 	      </div>
 	    </div>
-    </section>
+    </section> 
 
 <!--about-->
+<div class="image">
+	<div class="text">
+		<span class="subheading text-white">Hello!</span>
+	  <h1 class="mb-4 mt-3">I'm <span>P.S.SHAHUL ABBASH</span></h1>
+	  <h2 class="mb-4"><span>UI/UX designer</span></h2>
+	  <p><a href="#" class="btn btn-primary py-3 px-4">Hire me</a> <a href="#" class="btn btn-white btn-outline-white py-3 px-4">My works</a></p>
+  </div>
+</div>
     <section class="ftco-about img ftco-section ftco-no-pb" id="about-section">
     	<div class="container">
     		<div class="row d-flex">
@@ -515,7 +550,7 @@
         </div>
     		<div class="row">
     			<div class="col-md-4">
-    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/figma1.png);cursor: pointer;">
+    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/figma1.jpeg);cursor: pointer;">
     					<div class="overlay"></div>
 	    				<div class="text text-center p-4">
 	    					<h3><a href="#">Design portfolio</a></h3>
@@ -524,7 +559,7 @@
     				</div>
   				</div>
   				<div class="col-md-8">
-    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/figma2.png);cursor: pointer;">
+    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/figma2.jpeg);cursor: pointer;">
     					<div class="overlay"></div>
 	    				<div class="text text-center p-4">
 	    					<h3><a href="#">Branding &amp; white page design</a></h3>
@@ -534,7 +569,7 @@
   				</div>
 
     			<div class="col-md-12">
-    				<div class="project img ftco-animate d-flex justify-content-center align-items-center flex-wrap" style="background-image: url(images/figma3.png);background-size: 100%;cursor: pointer;">
+    				<div class="project img ftco-animate d-flex justify-content-center align-items-center flex-wrap" style="background-image: url(images/figma3.jpeg);background-size: 100% ;cursor: pointer;">
     					<div class="overlay"></div>
 	    				<div class="text text-center p-4">
 	    					<h3><a href="#">tata 1mg on case study</a></h3>
