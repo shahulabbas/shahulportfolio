@@ -30,7 +30,17 @@
 	}
 	 /* Mobile-Only CSS for screens with max-width of 767px */
 	 @media screen and (max-width: 767px) {
-		 
+		 .project {
+    background-image: url(images/develop.png);
+    cursor: pointer;
+    background-size: cover; /* Adjust to cover or contain as needed */
+    background-position: center;
+    overflow-x: hidden; /* Hide horizontal overflow */
+    overflow-y: auto; /* Enable vertical scrolling if content overflows */
+    width: 100%; /* Ensure full width of the container */
+    height: 100%; /* Ensure full height of the container */
+}
+
 	   .hero{
 	   	display: none;
 	   }
@@ -621,7 +631,7 @@
 						</div>
 					  </div>
 					  <br>
-    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/develop.png); cursor: pointer; overflow-x: hidden;">
+    				<div class="project img ftco-animate d-flex justify-content-center align-items-center">
     					<div class="overlay"></div>
 	    				<div class="text text-center p-4">
 	    					<h3><a href="#">Branding &amp; user portfolio</a></h3>
